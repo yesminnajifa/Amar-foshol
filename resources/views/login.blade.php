@@ -248,7 +248,7 @@ loginFormEl.addEventListener("submit", (e) => {
 
   if ((loginText === savedUser.username || loginText === savedUser.mobile) && loginPass === savedUser.password) {
     alert("লগইন সফল! আপনাকে মূল পেজে নিয়ে যাওয়া হচ্ছে...");
-    window.location.href = "index.html";
+    window.location.href = "{{ route('index') }}";
   } else {
     alert("ইউজারনেম/মোবাইল বা পাসওয়ার্ড ভুল!");
   }

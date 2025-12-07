@@ -17,14 +17,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+<!-- Main CSS File -->
+<link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: AgriCulture
@@ -40,7 +41,7 @@
   <header id="header" class="header d-flex align-items-center position-relative">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{{ route('index') }}" class="logo d-flex align-items-center"> 
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" alt="AgriCulture">
         <!-- <h1 class="sitename">AgriCulture</h1>  -->
@@ -48,14 +49,14 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">হোম</a></li>
-          <li><a href="রোগ শনাক্তকরণ.html">রোগ শনাক্তকরণ</a></li>
-          <li><a href="কৃষক চ্যাট.html">কৃষক চ্যাট</a></li>
-          <li><a href="আজকের বাজার মূল্য.html">আজকের বাজার মূল্য</a></li>
-          <li><a href="ফার্মার মার্কেট.html">ফার্মার মার্কেট</a></li>
-          <li><a href="লাইভ এক্সপার্ট সাপোর্ট.html">লাইভ এক্সপার্ট সাপোর্ট</a></li>
-          <li><a href="কৃষি সহায়ক.html">কৃষি সহায়ক</a></li>
-          <li><a href="পেমেন্ট.html">পেমেন্ট</a></li>
+          <li><a href="{{ route('index') }}" class="active">হোম</a></li>
+          <li><a href="{{ route('disease') }}">রোগ শনাক্তকরণ</a></li>
+          <li><a href="{{ route('chat') }}">কৃষক চ্যাট</a></li>
+          <li><a href="{{ route('price') }}">আজকের বাজার মূল্য</a></li>
+          <li><a href="{{ route('product') }}">ফার্মার মার্কেট</a></li>
+          <li><a href="{{ route('support') }}">লাইভ এক্সপার্ট সাপোর্ট</a></li>
+          <li><a href="{{ route('dashboard') }}">কৃষি সহায়ক</a></li>
+          <li><a href="{{ route('payment') }}">পেমেন্ট</a></li>
           
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -368,7 +369,7 @@
 </ul>
 
 
-            <p><a href="#" class="btn-cta">যোগাযোগ করুন</a></p>
+            <p><a href="{{ route('support') }}" class="btn-cta">যোগাযোগ করুন</a></p>
           </div>
         </div>
       </div>
@@ -718,68 +719,27 @@
 
     <div class="footer-top">
       <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
+        <div class="row gy-4 justify-content-center">
+
+          <div class="col-lg-4 col-md-6 footer-about text-center">
+            <a href="{{ route('index') }}" 
+               class="logo d-flex flex-column align-items-center justify-content-center">
               <span class="sitename">আমারফসল</span>
             </a>
+
             <div class="footer-contact pt-3">
-              <p>Mirpur,Dhaka,Bangladesh</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>Uttara, Dhaka, Bangladesh</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>01313540236</span></p>
+              <p><strong>Email:</strong> <span>yesminn791@gmail.com</span></p>
             </div>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
-            <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
-            </ul>
           </div>
 
         </div>
       </div>
     </div>
 
-    
-  </footer>
+</footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
