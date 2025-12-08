@@ -10,6 +10,7 @@ use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SupportController;
+use App\Http\Controllers\BookingController;
 
 
 
@@ -38,7 +39,7 @@ Route::get('/product', [ProductController::class, 'product'])->name('product');
 
 Route::get('/support', [SupportController::class, 'support'])->name('support');
 
-
+Route::post('/booking/store', [BookingController::class, 'store'])->name('book.store');
 
 
 
