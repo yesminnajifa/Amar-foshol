@@ -229,8 +229,7 @@
                 <div class="service-item-content">
                   <h3 class="service-heading">🌰 বীজ বপন</h3>
                   <p>
-                    Gravida sodales condimentum pellen tesq accumsan orci quam
-                    sagittis sapie
+                    গভীর সংযোগ ও বিন্যাসে সাজানো গঠন, যা সহজ প্রবাহ এবং স্থিতিশীলতার ইঙ্গিত দেয়
                   </p>
                 </div>
               </div>
@@ -308,9 +307,9 @@
             </div>
             <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
   <h3 class="content-subtitle text-white opacity-50">কেন আমাদের বেছে নিবেন</h3>
-  <h2 class="content-title mb-4">
+  <!-- <h2 class="content-title mb-4">
     কৃষি শিল্পে <strong>৫০ বছরের বেশি অভিজ্ঞতা</strong>
-  </h2>
+  </h2> -->
   <p class="opacity-50">
     বিশেষজ্ঞতা ও কঠোর পরিশ্রমের মাধ্যমে আমরা আপনার চাহিদা পূরণ করি।
   </p>
@@ -353,9 +352,9 @@
         <div class="row gy-4 justify-content-between align-items-center">
           <div class="col-lg-6 order-lg-2 position-relative" data-aos="zoom-out">
             <img src="assets/img/img_sq_1.jpg" alt="Image" class="img-fluid">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn">
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn">
               <span class="play"><i class="bi bi-play-fill"></i></span>
-            </a>
+            </a> -->
           </div>
           <div class="col-lg-5 order-lg-1" data-aos="fade-up" data-aos-delay="100">
             <h2 class="content-title mb-4">গাছের জন্য সঠিক যত্ন</h2>
@@ -682,7 +681,7 @@
 
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section light-background">
+    <!-- <section id="call-to-action" class="call-to-action section light-background">
 
       <div class="content">
         <div class="container">
@@ -711,7 +710,7 @@
           </div>
         </div>
       </div>
-    </section><!-- /Call To Action Section -->
+    </section>/Call To Action Section -->
 
   </main>
 
