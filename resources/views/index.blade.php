@@ -507,64 +507,7 @@
     </section><!-- /Services 2 Section -->
 
     <!-- Testimonials Section -->
-<section class="testimonials-12 testimonials section" id="testimonials">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>ক্লায়েন্টের মতামত</h2>
-    <p>আমাদের ক্লায়েন্টরা আমাদের সম্পর্কে কী বলেন</p>
-  </div><!-- End Section Title -->
-
-  <div class="testimonial-wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-4 mb-md-4">
-          <div class="testimonial">
-            <img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial author">
-            <blockquote>
-              <p>
-                “আমি যে অর্গানিক সবজি কিনেছি তা খুবই তাজা এবং মানসম্মত ছিল। ডেলিভারি সময়মতো হয়েছে এবং সার্ভিস অসাধারণ ছিল। আমি সবাইকে সুপারিশ করি!”
-              </p>
-            </blockquote>
-            <p class="client-name">জেমস স্মিথ</p>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4 mb-md-4">
-          <div class="testimonial">
-            <img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial author">
-            <blockquote>
-              <p>
-                “আমি তাদের কৃষি পরামর্শ সেবার সঙ্গে কাজ করছি, এবং তাদের নির্দেশনার মাধ্যমে আমার ফসলের উৎপাদন উল্লেখযোগ্যভাবে বৃদ্ধি পেয়েছে।”
-              </p>
-            </blockquote>
-            <p class="client-name">কেট স্মিথ</p>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4 mb-md-4">
-          <div class="testimonial">
-            <img src="assets/img/testimonials/testimonials-3.jpg" alt="Testimonial author">
-            <blockquote>
-              <p>
-                “তাদের টেকসই চাষাবাদ পদ্ধতির প্রতি অঙ্গীকার সত্যিই প্রশংসনীয়। এমন একটি কোম্পানিকে সমর্থন করতে পারি যা পরিবেশের প্রতি যত্নশীল।” 
-              </p>
-            </blockquote>
-            <p class="client-name">ক্লেয়ার অ্যান্ডারসন</p>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4 mb-md-4">
-          <div class="testimonial">
-            <img src="assets/img/testimonials/testimonials-4.jpg" alt="Testimonial author">
-            <blockquote>
-              <p>
-                “চমৎকার গ্রাহক সমর্থন এবং সবসময় তাজা পণ্য সরবরাহ। আমার পরিবার তাদের পণ্য এবং সেবায় খুবই সন্তুষ্ট।” 
-              </p>
-            </blockquote>
-            <p class="client-name">ড্যান স্মিথ</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- /Testimonials Section -->
+{{-- <!-- /Testimonials Section --> --}}
 
 
     <!-- সাম্প্রতিক পোস্ট সেকশন -->

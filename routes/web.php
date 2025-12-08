@@ -41,5 +41,5 @@ Route::get('/support', [SupportController::class, 'support'])->name('support');
 
 Route::post('/booking/store', [BookingController::class, 'store'])->name('book.store');
 
-
+Route::post('/payment', [PaymentController::class, 'store'])->name('payment.store');
 
